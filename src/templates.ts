@@ -46,7 +46,7 @@ export const Templates = {
 
         <h4>
 
-        Add Location & Color fields to use a choropleth layer. Location attribute must match US State, Global Country, or US Postal Code. The default setting is US States and can be changed in the "Data Level" property within Choropleth settings. For other polygons, use a custom tileset.
+        
 
         </h4>
 
