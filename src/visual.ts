@@ -278,9 +278,9 @@ export class MapboxMap implements IVisual {
             this.errorDiv.innerHTML = Templates.MissingGeo;
             return false;
         }
-        else if (this.settings.choropleth.show && ((!roles.location || !roles.color))) {
-            this.errorDiv.innerHTML = Templates.MissingLocationOrColor;
-            return false;
+       // else if (this.settings.choropleth.show && ((!roles.location || !roles.color))) {
+       //     this.errorDiv.innerHTML = Templates.MissingLocationOrColor;
+       //     return false;
         }
         else if (this.settings.choropleth.show && (
             !this.settings.choropleth.vectorTileUrl1 ||
